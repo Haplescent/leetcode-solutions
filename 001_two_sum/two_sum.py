@@ -21,4 +21,4 @@ class Solution(object):
                 i+=1
             else:
                 j-=1
-        return sorted([a[i][0]+1, a[j][0]+1])
+        return sorted([a[i][0], a[j][0]])
